@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.footer__row {
+    font-size: 10px;
+    font-weight: bold;
+    align-items: center;
+}
+.footer__row ul {
+    display: flex;
+    align-items: center;
+}
+.footer__row ul li {
+    list-style: none;
+    padding: 10px;
+}
+.footer__row ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}

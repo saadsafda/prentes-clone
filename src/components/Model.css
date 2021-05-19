@@ -1,0 +1,170 @@
+.model {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("./Loginbg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.model__container {
+  width: 360px;
+  height: 60vh;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+}
+.model__group {
+  margin: 10px 10px 10px 24px;
+}
+.model__group h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+}
+.model__group p {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+}
+.model__group img {
+    height: 50px;
+    margin-left: 40%;
+}
+.model__input {
+  width: 80%;
+  height: 40px;
+  padding: 0 12px;
+  margin-left: 14px;
+  border: 1px solid #d2dbdb;
+  outline: none;
+  border-radius: 15px;
+}
+.model__input:focus {
+  border: 4px solid #4a85c9;
+}
+.btn {
+  outline: none;
+  border: none;
+  color: #fff;
+  height: 40px;
+  padding: 0 13px;
+  margin-top: 10px;
+  margin-left: 28px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.btn-smart {
+  width: 80%;
+  background: #940020;
+}
+.btn1 {
+    position: relative;
+    left: 10px;
+    outline: none;
+    border: none;
+    color: #505050;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.btn1-primery {
+    width: 80%;
+    background: #eeeded;
+}
+.btn1-primery:hover {
+    background-color: #d2d2d2
+}
+.model {
+  color: gray;
+  position: absolute;
+  cursor: pointer;
+  padding: 30px;
+  background-color: black;
+}
+
+.model__grouplast p{
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  text-align: center;
+  margin: 16px 30px;
+}
+
+.model__groupl {
+  margin: 10px 10px 10px 24px;
+}
+.model__groupl h1 {
+  display: flex;
+  justify-content: center;
+}
+.model__groupl p {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+}
+.model__groupl img {
+    height: 50px;
+    margin-left: 40%;
+}
+.model__inputl {
+  width: 80%;
+  height: 40px;
+  padding: 0 12px;
+  margin-left: 14px;
+  border: 1px solid #d2dbdb;
+  outline: none;
+  border-radius: 15px;
+}
+.model__inputl:focus {
+  border: 4px solid #4a85c9;
+}
+.btnl {
+  outline: none;
+  border: none;
+  color: #fff;
+  height: 40px;
+  padding: 0 13px;
+  margin-top: 10px;
+  margin-left: 28px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.btnl-smart {
+  width: 80%;
+  background: #c21010;
+}
+.btn1l {
+  position: relative;
+  left: 70px;
+  color: #505050;
+  font-size: 16px;
+  font-weight: bold;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.btnl-primery {
+    width: 80%;
+    background: #eeeded;
+}
+
+.l p{
+  margin: 20px 40px;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  text-align: center;
+}

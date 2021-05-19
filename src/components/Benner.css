@@ -1,0 +1,23 @@
+
+
+.site-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-one {
+    display: flex;
+    overflow-x: scroll;
+}
+.slider-one::-webkit-scrollbar {
+    position: relative;
+}
+
+.slider-one img {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    object-fit: contain;
+}
